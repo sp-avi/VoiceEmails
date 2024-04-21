@@ -43,8 +43,8 @@ def send_email():
     df = pd.DataFrame(data)
     df.to_excel('receivers.xlsx', index=False, engine='openpyxl')
 
-    sender_email = "avidhule7752@gmail.com"
-    sender_password = "btxr cdxb vpmi oyol"
+    sender_email = "sp@gmail.com"
+    sender_password = "xxxx  xxxx xxxx"
 
     message = f"Subject: {subject}\n\n{body}"
 
